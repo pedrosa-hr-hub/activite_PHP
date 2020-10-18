@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    body{
+        background-color: aquamarine;
+        position: absolute;
+        left: 30%;
+        top: 30%;
+        font-style: oblique;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="manipula.php" method="post">
+        <label for="cdg_cliente">Codigo do Cliente:</label> <br>
+        <input type="number" name="cdg_cliente" id="cdg_cliente"> <!-- pega codigo-->
+        <br>
+        <br>
+        <label for="nome_arq">Nome do arquivo:</label><br>
+        <input type="text" name="nome_arq" id="nome_arq"> <!--pega nome-->
+        <br>
+        <br>
+        <label for="text_arq">Texto do arquivo:</label> <br><!--pega texto-->
+        <textarea name="text_arq" id="text_arq" cols="30" rows="10">
+
+        </textarea>
+        <br>
+        <input type="submit" value="ENVIAR"><!--envia-->
+    </form>
+
+</body>
+</html>
